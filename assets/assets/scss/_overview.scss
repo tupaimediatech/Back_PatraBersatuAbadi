@@ -1,0 +1,61 @@
+.overview{
+    min-height: 85vh;
+    padding-top: 70px;
+    .nav-tabs{
+        margin-bottom:10px;
+        font-family: 'Quicksand', sans-serif;
+        .nav-link.active{
+            background-color: #232323;
+            color: #f1f1f1;
+        }
+        .nav-link{
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+    }
+    .tab-content {
+        .tab-pane{
+            .content{
+                text-align: justify;
+                line-height: 1.5;
+                margin-top: 30px;
+
+                .logo{
+                    width: 300px;
+                    height: 190px;
+                    float: right;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:$extrasmall){
+.overview{
+    .container{
+        padding: 0;
+    }
+    .nav-tabs{
+        .nav-item{
+            .mbr-text{
+                font-size: 0.8rem;
+                padding-left: 9px;
+                padding-right: 9px;
+            }
+        }
+    }
+    .tab-content{
+        .tab-pane{
+            .content{
+                font-size: 1rem;
+                .logo{
+                    width: 150px;
+                    height: 90px;
+                }
+            }
+        }
+    }
+}
+}

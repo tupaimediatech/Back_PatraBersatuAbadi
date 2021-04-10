@@ -1,0 +1,40 @@
+.services_detail{
+    padding-top: 50px;
+    .icon{
+        svg{
+            height: 3em;
+            width: 3em;
+        }
+    }
+
+    .jumbotron_services{
+        margin-top: 10px;
+        border-radius: 20px;
+        height: 300px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        .content-title{
+            font-size: 3rem;
+            margin-left: 30px;
+        }
+    }
+    .content{
+        margin-top: 30px;
+        .title{
+            .content-title{
+
+                color: black;
+                font-size: 2rem;
+            }
+        }
+        .detail{
+            p{
+                
+                line-height: 2rem;
+                font-family: 'Quicksand', sans-serif;
+                font-size: 1.2rem;
+                word-spacing: 1px;
+            }
+        }
+    }
+}

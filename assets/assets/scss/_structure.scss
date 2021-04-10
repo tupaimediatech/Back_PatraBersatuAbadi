@@ -1,0 +1,47 @@
+.structure{
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 100%), url('../images/logo2.png');
+    background-size: 100% 100%,1200px 1200px;
+    background-repeat: no-repeat,no-repeat;
+    background-position: center, center;
+
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+    }
+    .structure-box{
+        box-shadow: $shadow;
+
+        &:hover{
+            box-shadow: $shadow16;
+        }
+        
+        .structure-img{
+            height: 300px;
+            img{
+                height: 300px;
+            }
+        }
+
+        .structure-content{
+            padding-bottom: 1px;
+            padding-bottom: 0px;
+            .content-title{
+                font-size: 22px;
+            }
+            .content-info{
+                font-size: 16px;
+            }
+        }
+
+        .structure-footer{
+            margin-top: 0px;
+            .btn{
+                font-size: 14px;
+            }
+        }
+    }
+
+    #commisioner{
+        margin-top: 60px;
+    }
+}

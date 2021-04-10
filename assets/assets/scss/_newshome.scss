@@ -1,0 +1,30 @@
+.news-home{
+    .news-box{
+        box-shadow: $shadow;
+
+        .news-img{
+            height: 200px;
+            img{
+                height: 200px;
+            }
+        }
+
+        .news-content{
+            padding-bottom: 1px;
+            padding-bottom: 0px;
+            .content-title{
+                font-size: 22px;
+            }
+            .content-info{
+                font-size: 16px;
+            }
+        }
+
+        .news-footer{
+            margin-top: 0px;
+            .btn{
+                font-size: 14px;
+            }
+        }
+    }
+}

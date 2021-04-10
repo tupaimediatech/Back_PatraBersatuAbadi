@@ -1,0 +1,44 @@
+.news-collection{
+    padding-top: 50px;
+    padding-bottom:50px;
+
+    .box{
+        &:hover{
+            box-shadow: $shadow16;
+        }
+        .content{
+                padding: 50px;
+            .content-info{
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.pagination-box{
+    margin-bottom: 20px;
+        
+}
+
+@media only screen and (max-width: $small){
+    .news-collection{
+        .box{
+            .images{
+                height:200px;
+                img{
+                    height: 200px;
+                }
+            }
+            .content{
+                padding: 30px;
+
+                .item-title{
+                    font-size: 1.5em;
+                }
+                .content-info{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}

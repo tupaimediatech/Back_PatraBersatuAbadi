@@ -1,0 +1,33 @@
+.services{
+    .box-services{
+        box-shadow: $shadow1;
+        border-radius: 20px;
+        
+        &:hover{
+            box-shadow: $shadow16;
+        }
+
+        .item-img{
+            height: 200px;
+            img{
+                height: 200px;
+            }
+        }
+        
+        .services-content{
+            .services-info{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 16px;
+                text-align: left;
+            }
+        }
+        .item-footer{
+            .btn{
+                font-size: 14px;
+            }
+        }
+    }
+}
