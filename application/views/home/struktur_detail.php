@@ -1,15 +1,14 @@
     <!--Structur block-->
     <section class="content1 cid-srPN4fVE3X profile" id="profile">
         <div class="container">
-            <a href="struktur.html">
+            <a href="<?= base_url('struktur#structure') ?>">
                 <i class="fa fa-arrow-left" style="font-size:30px;"></i>
             </a>
             <div class="row mt-4 justify-content-between a">
                 <div class="kotak col-12" data-aos="zoom-in" data-aos-delay="100">
                     <div class="row">
                         <div class="hitam col-12 col-lg-4">
-                            <img src="<?= base_url('assets/') ?>assets/images/<?= $struktur[0]['img'] ?> ?>" alt="" style="position: absolute;" data-aos="zoom-in"
-                                data-aos-delay="300">
+                            <img src="<?= base_url('assets/') ?>assets/images/<?= $struktur[0]['img'] ?> ?>" alt="" style="position: absolute;" data-aos="zoom-in" data-aos-delay="300">
                         </div>
                         <div class="putih col-12 col-lg-8" data-aos="zoom-in" data-aos-delay="200">
                             <h5 class="item-title mbr-fonts-style display-5 content-title text-primary text-center">
