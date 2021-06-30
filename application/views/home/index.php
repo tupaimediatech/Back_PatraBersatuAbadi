@@ -159,11 +159,11 @@
 
             </div>
             <div class="row mbr-gallery mt-4 justify-content-center">
-            	<?php foreach ($gallerys as $img): ?>
+            	<?php $i=0; foreach ($gallerys as $img): ?>
             		
                 <div class="col-12 col-md-6 col-lg-3 item gallery-image">
                     <div class="item-wrapper" data-toggle="modal" data-target="#srQIY4WF7y-modal">
-                        <img class="w-100" src="<?= base_url('assets/') ?>/images/gallery/<?= $img['foto'] ?>" alt="" data-slide-to="0"
+                        <img class="w-100" src="<?= base_url('assets/') ?>/images/gallery/<?= $img['foto'] ?>" alt="" data-slide-to="<?php echo($i++) ?>"
                             data-target="#lb-srQIY4WF7y">
                         <div class="icon-wrapper">
                             <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
@@ -183,8 +183,8 @@
                             <div class="carousel slide carousel-fade" id="lb-srQIY4WF7y" data-ride="carousel"
                                 data-interval="5000">
                                 <div class="carousel-inner">
-                                	<?php foreach ($gallerys as $img): ?>
-                                    <div class="carousel-item active">
+                                	<?php $i=1; foreach ($gallerys as $img): ?>
+                                    <div class="carousel-item <?= $i == 1 ? 'active' : '' ?>"<?php $i++ ?>>
                                         <img class="d-block w-100" src="<?= base_url('assets/') ?>/images/gallery/<?= $img['foto'] ?>" alt="">
                                     </div>
                                 	<?php endforeach ?>
